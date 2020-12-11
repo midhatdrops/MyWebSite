@@ -43,14 +43,17 @@ const GridStyles = makeStyles((theme) => ({
   },
   LongText: {
     fontFamily: 'Nunito',
-    FontSize: '0.5rem',
+    FontSize: '15px',
     FontWeight: 200,
     textAlign: 'justify',
     width: '400px',
     wordWrap: 'break-word',
     height: 'auto',
     overflowY: 'auto',
-    marginTop: '5px',
+    marginTop: '8px',
+    '@media(max-width: 400px)': {
+      FontSize: '13px',
+    },
   },
   List: {
     fontFamily: 'Nunito',
@@ -76,7 +79,7 @@ export default function AboutGrid() {
           Bruno Rezende Novais
         </Typography>
         <Typography align="center" className={classes.SubTitles}>
-          23 anos / São Paulo - SP / Solteiro / Dev FrontEnd
+          23 anos / São Paulo - SP / Casado / Dev FrontEnd
         </Typography>
         <p className={classes.LongText}>
           Inicialmente uma criança curiosa com o mundo da computação, comecei a

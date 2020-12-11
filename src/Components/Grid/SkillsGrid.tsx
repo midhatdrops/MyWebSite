@@ -84,7 +84,24 @@ export default function SocialMediaGrid() {
           </ListItem>
           <ListItem>
             <ListItemText classes={{ primary: classes.SubList }}>
-              ○ Website de apresentação
+              <Link
+                href="https://github.com/midhatdrops/MyWebSite"
+                color="secondary"
+                rel="noopener"
+              >
+                ○ Website de Apresentação
+              </Link>{' '}
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemText classes={{ primary: classes.SubList }}>
+              <Link
+                href="https://github.com/midhatdrops/pokepedia"
+                color="secondary"
+                rel="noopener"
+              >
+                ○ PokePedia
+              </Link>{' '}
             </ListItemText>
           </ListItem>
           <ListItem divider={true}>
@@ -151,11 +168,37 @@ export default function SocialMediaGrid() {
               <Link
                 href="https://www.udemy.com/course/curso-web/"
                 color="secondary"
+                rel="noopener"
               >
                 Link do curso
               </Link>{' '}
               /{' '}
-              <Link href="https://cutt.ly/whWfrPE" color="secondary">
+              <Link
+                href="https://cutt.ly/whWfrPE"
+                color="secondary"
+                rel="noopener"
+              >
+                Link Certificado
+              </Link>
+            </ListItemText>
+          </ListItem>
+          <ListItem alignItems="center">
+            <ListItemText classes={{ primary: classes.SubList }}>
+              ○ Typescript
+              <br />
+              <Link
+                href="https://www.udemy.com/course/typescript-pt/"
+                color="secondary"
+                rel="noopener"
+              >
+                Link do curso
+              </Link>{' '}
+              /{' '}
+              <Link
+                href="https://drive.google.com/file/d/1b_dVGS9eU4UvmmmPqOR_YtpM_ICC7JQh/view?usp=sharing"
+                color="secondary"
+                rel="noopener"
+              >
                 Link Certificado
               </Link>
             </ListItemText>
