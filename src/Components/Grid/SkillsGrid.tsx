@@ -203,6 +203,27 @@ export default function SocialMediaGrid() {
               </Link>
             </ListItemText>
           </ListItem>
+          <ListItem alignItems="center">
+            <ListItemText classes={{ primary: classes.SubList }}>
+              ○ API REST
+              <br />
+              <Link
+                href="https://www.udemy.com/course/restful-apis/"
+                color="secondary"
+                rel="noopener"
+              >
+                Link do curso
+              </Link>{' '}
+              /{' '}
+              <Link
+                href="https://drive.google.com/file/d/1DrHdjHXwrRdbfofx4hwHUWwwtXgz2zMm/view?usp=sharing"
+                color="secondary"
+                rel="noopener"
+              >
+                Link Certificado
+              </Link>
+            </ListItemText>
+          </ListItem>
           {/* <ListItem alignItems="center">
             <ListItemText classes={{ primary: classes.SubList }}>
               ○ Typescript
