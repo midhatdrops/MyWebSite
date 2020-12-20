@@ -80,7 +80,7 @@ export default function AboutGrid() {
           Bruno Rezende Novais
         </Typography>
         <Typography align="center" className={classes.SubTitles}>
-          23 anos / São Paulo - SP / Casado / Dev FrontEnd
+          23 anos / São Paulo - SP / Solteiro / Dev FrontEnd
         </Typography>
         <p className={classes.LongText}>
           Inicialmente uma criança curiosa com o mundo da computação, comecei a
