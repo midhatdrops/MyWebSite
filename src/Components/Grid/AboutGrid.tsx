@@ -10,6 +10,7 @@ import Image from '../../Images/FotoPerfil.jpg';
 import GamesIcon from '@material-ui/icons/Games';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
+import MicIcon from '@material-ui/icons/Mic';
 
 const GridStyles = makeStyles((theme) => ({
   Grid: {
@@ -120,6 +121,14 @@ export default function AboutGrid() {
             </ListItemIcon>
             <ListItemText classes={{ primary: classes.List }}>
               Escuto de tudo um pouco, porém mais fã do Rock e Trance
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <MicIcon fontSize="small" color="secondary"></MicIcon>
+            </ListItemIcon>
+            <ListItemText classes={{ primary: classes.List }}>
+              Redator e caster no site Animystic.com.br
             </ListItemText>
           </ListItem>
         </List>

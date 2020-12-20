@@ -224,45 +224,6 @@ export default function SocialMediaGrid() {
               </Link>
             </ListItemText>
           </ListItem>
-          {/* <ListItem alignItems="center">
-            <ListItemText classes={{ primary: classes.SubList }}>
-              ○ Typescript
-              <br />
-              <Link href="" color="secondary">
-                Link do curso
-              </Link>{' '}
-              /{' '}
-              <Link href="" color="secondary">
-                Link Certificado
-              </Link>
-            </ListItemText>
-          </ListItem>
-          <ListItem alignItems="center">
-            <ListItemText classes={{ primary: classes.SubList }}>
-              ○ Curso React
-              <br />
-              <Link href="" color="secondary">
-                Link do curso
-              </Link>{' '}
-              /{' '}
-              <Link href="" color="secondary">
-                Link Certificado
-              </Link>
-            </ListItemText>
-          </ListItem>
-          <ListItem alignItems="center">
-            <ListItemText classes={{ primary: classes.SubList }}>
-              ○ Curso React Native
-              <br />
-              <Link href="" color="secondary">
-                Link do curso
-              </Link>{' '}
-              /{' '}
-              <Link href="" color="secondary">
-                Link Certificado
-              </Link>
-            </ListItemText>
-          </ListItem> */}
         </List>
       </Grid>
     </Grid>

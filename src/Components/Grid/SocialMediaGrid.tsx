@@ -10,6 +10,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 const GridStyles = makeStyles((theme) => ({
   Grid: {
@@ -95,7 +96,15 @@ export default function SocialMediaGrid() {
               <LinkedInIcon fontSize="small" color="secondary"></LinkedInIcon>
             </ListItemIcon>
             <ListItemText classes={{ primary: classes.List }}>
-              /brunornovais
+              https://url.gratis/IFgQ7
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <FacebookIcon fontSize="small" color="secondary"></FacebookIcon>
+            </ListItemIcon>
+            <ListItemText classes={{ primary: classes.List }}>
+              /bruno.novais.39
             </ListItemText>
           </ListItem>
           <ListItem>
