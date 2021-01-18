@@ -80,7 +80,7 @@ export default function SocialMediaGrid() {
               <InstagramIcon fontSize="small" color="secondary"></InstagramIcon>
             </ListItemIcon>
             <ListItemText classes={{ primary: classes.List }}>
-              @brunorezende
+              @brunorezen
             </ListItemText>
           </ListItem>
           <ListItem>
