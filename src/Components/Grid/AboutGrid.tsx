@@ -11,6 +11,7 @@ import GamesIcon from '@material-ui/icons/Games';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
 import MicIcon from '@material-ui/icons/Mic';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 
 const GridStyles = makeStyles((theme) => ({
   Grid: {
@@ -105,6 +106,14 @@ export default function AboutGrid() {
             </ListItemIcon>
             <ListItemText classes={{ primary: classes.List }}>
               Jogador assíduo de RPG's e jogos online
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <YouTubeIcon fontSize="small" color="secondary"></YouTubeIcon>
+            </ListItemIcon>
+            <ListItemText classes={{ primary: classes.List }}>
+              Streamer de Live Codding na Twitch
             </ListItemText>
           </ListItem>
           <ListItem>

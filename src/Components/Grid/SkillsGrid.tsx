@@ -5,6 +5,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import SchoolIcon from '@material-ui/icons/School';
 
 import TranslateIcon from '@material-ui/icons/Translate';
 import ComputerIcon from '@material-ui/icons/Computer';
@@ -75,10 +76,24 @@ export default function SocialMediaGrid() {
         <List classes={{ root: classes.List }}>
           <ListItem>
             <ListItemIcon>
+              <SchoolIcon fontSize="small" color="secondary" />
+            </ListItemIcon>
+            <ListItemText classes={{ primary: classes.List }}>
+              Formação Acadêmica
+            </ListItemText>
+            <br />
+          </ListItem>
+          <ListItem alignItems="center">
+            <ListItemText classes={{ primary: classes.SubList }}>
+              ○ Engenharia de Software UniCesumar 2021-2024
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
               <WorkIcon fontSize="small" color="secondary" />
             </ListItemIcon>
             <ListItemText classes={{ primary: classes.List }}>
-              Experiências Profissionais
+              Projetos
             </ListItemText>
             <br />
           </ListItem>
@@ -104,9 +119,26 @@ export default function SocialMediaGrid() {
               </Link>{' '}
             </ListItemText>
           </ListItem>
+          <ListItem>
+            <ListItemText classes={{ primary: classes.SubList }}>
+              <Link
+                href="https://github.com/midhatdrops/imersao-alura-nextJS"
+                color="secondary"
+                rel="noopener"
+              >
+                ○ Imersão AluraQuiz NextJS
+              </Link>{' '}
+            </ListItemText>
+          </ListItem>
           <ListItem divider={true}>
             <ListItemText classes={{ primary: classes.SubList }}>
-              ○ {`Freelancer ( 2020 - )`}
+              <Link
+                href="https://github.com/midhatdrops/digital-wallet-app"
+                color="secondary"
+                rel="noopener"
+              >
+                ○ APP de Ciclos de Pagamento c/Redux
+              </Link>{' '}
             </ListItemText>
           </ListItem>
           <ListItem alignItems="center">
@@ -139,7 +171,7 @@ export default function SocialMediaGrid() {
           </ListItem>
           <ListItem alignItems="center">
             <ListItemText classes={{ primary: classes.SubList }}>
-              ○ React
+              ○ React / Redux
             </ListItemText>
           </ListItem>
           <ListItem alignItems="center">

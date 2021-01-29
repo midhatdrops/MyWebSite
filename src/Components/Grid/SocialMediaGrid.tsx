@@ -11,6 +11,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 
 const GridStyles = makeStyles((theme) => ({
   Grid: {
@@ -96,7 +97,12 @@ export default function SocialMediaGrid() {
               <LinkedInIcon fontSize="small" color="secondary"></LinkedInIcon>
             </ListItemIcon>
             <ListItemText classes={{ primary: classes.List }}>
-              https://url.gratis/IFgQ7
+              <a
+                href="https://www.linkedin.com/in/bruno-rezende-novais-8328b11b7/"
+                style={{ textDecoration: 'none', color: '#fff' }}
+              >
+                Bruno Rezende Novais
+              </a>
             </ListItemText>
           </ListItem>
           <ListItem>
@@ -113,6 +119,19 @@ export default function SocialMediaGrid() {
             </ListItemIcon>
             <ListItemText classes={{ primary: classes.List }}>
               novais.rezende@gmail.com
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <YouTubeIcon fontSize="small" color="secondary"></YouTubeIcon>
+            </ListItemIcon>
+            <ListItemText classes={{ primary: classes.List }}>
+              <a
+                href="https://www.twitch.tv/bruno_devbronze"
+                style={{ textDecoration: 'none', color: '#fff' }}
+              >
+                Bruno_DevBronze
+              </a>
             </ListItemText>
           </ListItem>
         </List>
