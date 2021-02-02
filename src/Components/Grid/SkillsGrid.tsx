@@ -256,6 +256,27 @@ export default function SocialMediaGrid() {
               </Link>
             </ListItemText>
           </ListItem>
+          <ListItem alignItems="center">
+            <ListItemText classes={{ primary: classes.SubList }}>
+              ○ Curso React + Redux completo
+              <br />
+              <Link
+                href="https://www.udemy.com/course/react-redux-pt/"
+                color="secondary"
+                rel="noopener"
+              >
+                Link do curso
+              </Link>{' '}
+              /{' '}
+              <Link
+                href="https://drive.google.com/file/d/14ozmcV66zqrtoqGVIPUwKsN4bm5_8Qni/view?usp=sharing"
+                color="secondary"
+                rel="noopener"
+              >
+                Link Certificado
+              </Link>
+            </ListItemText>
+          </ListItem>
         </List>
       </Grid>
     </Grid>
